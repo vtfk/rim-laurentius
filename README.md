@@ -1,5 +1,5 @@
-# rim-vigo-saksbehandling
-Klargjør jobber for arkivering
+# rim-laurentius
+Arkiverer ting i 360
 
 ## Config
 
@@ -8,6 +8,7 @@ docker.env
 ```bash
 QUEUE_DIRECTORY_PATH=test/data/queue
 JOBS_DIRECTORY_PATH=test/data/jobs
+STATUS_DIRECTORY_PATH=test/data/status
 ERRORS_DIRECTORY_PATH=test/data/error
 URL=https://vigo.dummy.allthethings.win
 USERNAME=my-username
@@ -19,19 +20,19 @@ PASSWORD=my-password
 Build
 
 ```bash
-$ docker build -t rim-vigo-saksbehandling .
+$ docker build -t rim-laurentius .
 ```
 
 ### Usage
 
 ```bash
-$ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm rrim-vigo-saksbehandling
+$ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm rim-laurentius
 ```
 
 or from pre-built image
 
 ```bash
-$ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telemark/rim-vigo-saksbehandling
+$ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telemark/rim-laurentius
 ```
 
 This will start a container. 
