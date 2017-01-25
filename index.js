@@ -2,6 +2,7 @@
 
 const getNextJobFromQueue = require('./lib/get-next-job-from-queue')
 const getFileData = require('./lib/get-file-data')
+const getContact = require('./lib/get-contact')
 const syncContact = require('./lib/sync-contact')
 const getCase = require('./lib/get-case')
 const addCase = require('./lib/add-case')
@@ -13,6 +14,7 @@ const logger = require('./lib/logger')
 
 getNextJobFromQueue()
   .then(getFileData)
+  .then(getContact)
   .then(syncContact)
   .then(getCase)
   .then(addCase)

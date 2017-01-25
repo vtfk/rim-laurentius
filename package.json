@@ -1,7 +1,7 @@
 {
   "name": "rim-laurentius",
   "description": "Rim for public360",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "author": {
     "name": "Jonas Enge",
@@ -42,7 +42,9 @@
     "tap": "9.0.3"
   },
   "dependencies": {
+    "p360": "2.0.1",
+    "tfk-360-unwrap-contact": "2.0.2",
     "tfk-arkiv-metadatagenerator": "2.0.16",
-    "p360": "2.0.1"
+    "tfk-is-hemmelig-adresse": "2.0.1"
   }
 }
