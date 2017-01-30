@@ -1,5 +1,9 @@
+[![Build Status](https://travis-ci.org/telemark/rim-laurentius.svg?branch=master)](https://travis-ci.org/telemark/rim-laurentius)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # rim-laurentius
-Arkiverer ting i 360
+
+Rett i mappa for Public 360
 
 ## Config
 
@@ -7,12 +11,13 @@ docker.env
 
 ```bash
 QUEUE_DIRECTORY_PATH=test/data/queue
-JOBS_DIRECTORY_PATH=test/data/jobs
+DONE_DIRECTORY_PATH=test/data/done
 STATUS_DIRECTORY_PATH=test/data/status
 ERRORS_DIRECTORY_PATH=test/data/error
 URL=https://vigo.dummy.allthethings.win
 USERNAME=my-username
 PASSWORD=my-password
+FIREBASE_URL=https://seneca-firebase-test.firebaseio.com
 ```
 
 ## Docker
@@ -36,10 +41,19 @@ $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telem
 ```
 
 This will start a container. 
-Check for jobs in the queue directory. 
-Format the document. 
-Save new job to jobs directory. 
-Stop the container and remove it.
+- Check for jobs in the queue directory. 
+- Format the document. 
+- Save new job to jobs directory. 
+- Stop the container and remove it.
+
+## Related
+
+- [rim-vigo-data-pull](https://github.com/telemark/rim-vigo-data-pull) Pulls data from VIGO
+- [rim-vigo-saksbehandling](https://github.com/telemark/rim-vigo-saksbehandling) Formats documents for archive
+- [rim-vigo-update-status](https://github.com/telemark/rim-vigo-update-status) Updates archive status for document
 
 # License
+
 [MIT](LICENSE)
+
+![alt text](https://robots.kebabstudios.party/rim-laurentius.png "Robohash image of rim-laurentius")
