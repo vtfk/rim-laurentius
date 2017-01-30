@@ -1,13 +1,20 @@
 {
   "name": "rim-laurentius",
   "description": "Rim for public360",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "author": {
     "name": "Jonas Enge",
     "email": "jonas.enge@gmail.com",
     "url": "https://github.com/maccyber"
   },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=7.4.0"
@@ -39,7 +46,7 @@
     "coveralls": "2.11.15",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "9.0.3"
+    "tap": "10.0.0"
   },
   "dependencies": {
     "p360": "2.0.1",
