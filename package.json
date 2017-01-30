@@ -44,7 +44,7 @@
   "dependencies": {
     "p360": "2.0.1",
     "tfk-360-unwrap-contact": "2.0.2",
-    "tfk-arkiv-metadatagenerator": "2.0.16",
+    "tfk-arkiv-metadatagenerator": "2.0.17",
     "tfk-is-hemmelig-adresse": "2.0.1"
   }
 }
