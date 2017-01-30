@@ -1,7 +1,7 @@
 {
   "name": "rim-laurentius",
   "description": "Rim for public360",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
   "author": {
     "name": "Jonas Enge",
@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.4"
+    "node": ">=7.4.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -29,10 +29,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/rim-laurentius.git"
+    "url": "https://github.com/telemark/rim-laurentius.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/rim-laurentius/issues"
+    "url": "https://github.com/telemark/rim-laurentius/issues"
   },
   "license": "MIT",
   "devDependencies": {

@@ -4,8 +4,8 @@
 #
 ###########################################################
 
-# Setting the base to nodejs 6.9.4
-FROM node:6.9.4-alpine
+# Setting the base to nodejs 7.4.0
+FROM node:7.4.0-alpine
 
 # Maintainer
 MAINTAINER Jonas Enge

@@ -14,5 +14,8 @@ module.exports = {
     options: {
       ignoredNamespaces: true
     }
+  },
+  fireBase: {
+    databaseURL: envs.FIREBASE_URL || 'https://seneca-firebase-test.firebaseio.com'
   }
 }
