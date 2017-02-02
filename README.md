@@ -42,7 +42,16 @@ $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telem
 
 This will start a container. 
 - Check for jobs in the queue directory. 
-- Format the document. 
+- Format the document.
+- Get contact
+- Sync contact (if not secret)
+- Get case
+- Add Case (if not exists)
+- Add document(s) (if document exists)
+- Save job done
+- Delete job from queue
+- Update status
+- 
 - Save new job to jobs directory. 
 - Stop the container and remove it.
 
