@@ -43,15 +43,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "nsp": "2.6.2",
     "standard": "8.6.0",
     "tap": "10.0.2"
   },
   "dependencies": {
     "firebase-save": "2.1.0",
-    "p360": "2.0.3",
-    "tfk-360-unwrap-contact": "2.0.3",
+    "p360": "2.0.4",
+    "tfk-360-unwrap-contact": "2.0.4",
     "tfk-arkiv-metadatagenerator": "2.0.17",
     "tfk-is-hemmelig-adresse": "2.0.1"
   }
