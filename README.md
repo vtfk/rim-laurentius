@@ -3,6 +3,8 @@
 
 # rim-laurentius
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-laurentius.svg)](https://greenkeeper.io/)
+
 Rett i mappa for Public 360
 
 ## Config
