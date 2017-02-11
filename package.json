@@ -50,8 +50,8 @@
   },
   "dependencies": {
     "firebase-save": "2.1.0",
-    "p360": "2.0.3",
-    "tfk-360-unwrap-contact": "2.0.3",
+    "p360": "2.0.4",
+    "tfk-360-unwrap-contact": "2.0.4",
     "tfk-arkiv-metadatagenerator": "2.0.17",
     "tfk-is-hemmelig-adresse": "2.0.1"
   }
