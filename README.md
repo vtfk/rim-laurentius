@@ -50,6 +50,7 @@ This will start a container.
 - Get case
 - Add Case (if not exists)
 - Add document(s) (if document exists)
+- Signs off document (if signOff is true)
 - Save job done
 - Delete job from queue
 - Update status
