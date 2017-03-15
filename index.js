@@ -26,5 +26,10 @@ getNextJobFromQueue()
   .then(saveJobDone)
   .then(deleteJobFromQueue)
   .then(updateStatus)
-  .then(data => logger('finished', JSON.stringify(data)))
-  .catch(err => logger(['error', JSON.stringify(err)]))
+  .then(data => {
+    logger('finished', JSON.stringify(data))
+    process.exit(0)
+  }).catch(err => {
+    logger(['error', JSON.stringify(err)])
+    process.exit(0)
+  })
