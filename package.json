@@ -46,7 +46,7 @@
     "coveralls": "3.0.0",
     "nsp": "3.1.0",
     "standard": "10.0.3",
-    "tap": "11.0.1"
+    "tap": "11.1.0"
   },
   "dependencies": {
     "firebase-save": "2.1.0",
