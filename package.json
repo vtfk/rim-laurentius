@@ -49,7 +49,7 @@
     "tap": "12.0.1"
   },
   "dependencies": {
-    "firebase-save": "2.1.0",
+    "firebase-save": "3.0.0",
     "tfk-360-unwrap-contact": "2.0.10",
     "p360": "3.1.1",
     "tfk-arkiv-metadatagenerator": "2.0.21",
