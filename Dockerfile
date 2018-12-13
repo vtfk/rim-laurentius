@@ -1,14 +1,4 @@
-###########################################################
-#
-# Dockerfile for the-real-laurentius
-#
-###########################################################
-
-# Setting the base to nodejs 7.4.0
-FROM node:7.10.1-alpine
-
-# Maintainer
-MAINTAINER Jonas Enge
+FROM node:10.14.2-alpine
 
 #### Begin setup ####
 

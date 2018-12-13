@@ -1,5 +1,6 @@
 # IDE
 .idea
+.vs
 .vscode
 
 # Mac OS
@@ -45,3 +46,9 @@ jspm_packages
 
 # yarn
 yarn.lock
+
+# Env
+.env
+
+# Package-lock
+package-lock.json
