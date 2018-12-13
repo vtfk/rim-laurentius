@@ -51,7 +51,7 @@
   "dependencies": {
     "firebase-save": "3.0.0",
     "tfk-360-unwrap-contact": "2.0.10",
-    "p360": "3.1.1",
+    "p360": "3.1.2",
     "tfk-arkiv-metadatagenerator": "2.0.21",
     "tfk-is-hemmelig-adresse": "3.0.0"
   }
