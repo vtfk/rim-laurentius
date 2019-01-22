@@ -45,7 +45,7 @@
   "devDependencies": {
     "coveralls": "3.0.2",
     "standard": "12.0.1",
-    "tap": "12.1.2"
+    "tap": "12.1.3"
   },
   "dependencies": {
     "firebase-save": "3.0.0",
