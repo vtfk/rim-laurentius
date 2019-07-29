@@ -12,7 +12,7 @@ RUN apk add --no-cache make gcc g++ python
 COPY . /src
 
 # Change working directory
-WORKDIR "/src"
+WORKDIR /src
 
 # Install dependencies
 RUN npm install --production
