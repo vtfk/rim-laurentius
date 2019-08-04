@@ -46,7 +46,7 @@
   "devDependencies": {
     "coveralls": "3.0.5",
     "standard": "13.1.0",
-    "tap": "14.5.0"
+    "tap": "14.6.1"
   },
   "dependencies": {
     "tfk-360-unwrap-contact": "3.0.0",
