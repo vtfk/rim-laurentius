@@ -25,7 +25,7 @@ getNextJobFromQueue()
   .then(saveJobDone)
   .then(deleteJobFromQueue)
   .then(data => {
-    logger(['finished', JSON.stringify(data)])
+    logger(['finished', data._id])
     process.exit(0)
   }).catch(err => {
     logger(['error', JSON.stringify(err)])
