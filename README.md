@@ -45,11 +45,12 @@ This will start a container.
 - Format the document.
 - Get contact
 - Sync contact (if not secret)
-- Get case
-- Add Case (if not exists)
-- Add document(s) (if document exists)
-- Signs off document (if signOff is true)
-- Save job done
+- Get case (if no errors)
+- Add Case (if not exists && no errors)
+- Add document(s) (if document exists && no errors)
+- Signs off document (if signOff is true && no errors)
+- Save job done (if no errors)
+- Save job errors  (if errors)
 - Delete job from queue
 - Update status
 - 
