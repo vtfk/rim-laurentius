@@ -45,11 +45,12 @@
   "license": "MIT",
   "devDependencies": {
     "coveralls": "3.1.0",
-    "standard": "14.3.4",
-    "tap": "14.10.8"
+    "dotenv": "8.2.0",
+    "standard": "16.0.3",
+    "tap": "14.11.0"
   },
   "dependencies": {
-    "tfk-360-unwrap-contact": "3.0.0",
+    "tfk-360-unwrap-contact": "3.0.1",
     "p360": "3.1.3",
     "tfk-arkiv-metadatagenerator": "2.1.3",
     "tfk-is-hemmelig-adresse": "3.0.1"
