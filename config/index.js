@@ -15,6 +15,15 @@ module.exports = {
       ignoredNamespaces: true
     }
   },
+  p360_secure_types: process.env.TFK_LAURENTIUS_P360WS_SECURE_TYPES ? process.env.TFK_LAURENTIUS_P360WS_SECURE_TYPES.split(',') : ['Personsensitivt dokument'],
+  p360_secure: {
+    user: process.env.TFK_LAURENTIUS_P360WS_SECURE_USER || 'domain/user', // username
+    password: process.env.TFK_LAURENTIUS_P360WS_SECURE_PASSWORD || 'password', // passord
+    baseUrl: process.env.TFK_LAURENTIUS_P360WS_SECURE_BASEURL || 'http://tfk-fh-siweb01t.login.top.no:8088/SI.WS.Core/SIF/',
+    options: {
+      ignoredNamespaces: true
+    }
+  },
   fireBase: {
     databaseURL: envs.FIREBASE_URL || 'https://seneca-firebase-test.firebaseio.com'
   }
