@@ -1,7 +1,5 @@
 'use strict'
 
-require('dotenv').config()
-
 const { logger } = require('@vtfk/logger')
 const getNextJobFromQueue = require('./lib/get-next-job-from-queue')
 const getFileData = require('./lib/get-file-data')
