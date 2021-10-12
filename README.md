@@ -13,10 +13,16 @@ QUEUE_DIRECTORY_PATH=test/data/queue
 DONE_DIRECTORY_PATH=test/data/done
 STATUS_DIRECTORY_PATH=test/data/status
 ERRORS_DIRECTORY_PATH=test/data/error
-URL=https://vigo.dummy.allthethings.win
-USERNAME=my-username
-PASSWORD=my-password
-FIREBASE_URL=https://seneca-firebase-test.firebaseio.com
+TFK_LAURENTIUS_P360WS_USER=username
+TFK_LAURENTIUS_P360WS_PASSWORD=password
+TFK_LAURENTIUS_P360WS_BASEURL=http://360test.no:4000/SI.WS.Core/SIF/
+TFK_LAURENTIUS_P360WS_SECURE_USER=secureUsername
+TFK_LAURENTIUS_P360WS_SECURE_PASSWORD=securePassword
+TFK_LAURENTIUS_P360WS_SECURE_BASEURL=http://360testSecure.no:4001/SI.WS.Core/SIF/
+PAPERTRAIL_HOSTNAME=hostname
+PAPERTRAIL_HOST=host
+PAPERTRAIL_PORT=01234
+NODE_ENV=production
 ```
 
 ## Docker
@@ -42,25 +48,15 @@ $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telem
 This will start a container. 
 - Check for jobs in the queue directory. 
 - Format the document.
-- Get contact
 - Sync contact (if not secret)
 - Get case (if no errors)
 - Add Case (if not exists && no errors)
 - Add document(s) (if document exists && no errors)
 - Signs off document (if signOff is true && no errors)
+- Save status jobs (callback)
 - Save job done (if no errors)
 - Save job errors  (if errors)
 - Delete job from queue
-- Update status
-- 
-- Save new job to jobs directory. 
-- Stop the container and remove it.
-
-## Related
-
-- [rim-vigo-data-pull](https://github.com/telemark/rim-vigo-data-pull) Pulls data from VIGO
-- [rim-vigo-saksbehandling](https://github.com/telemark/rim-vigo-saksbehandling) Formats documents for archive
-- [rim-vigo-update-status](https://github.com/telemark/rim-vigo-update-status) Updates archive status for document
 
 # License
 
