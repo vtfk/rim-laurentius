@@ -30,6 +30,8 @@ getNextJobFromQueue()
   .then(deleteJobFromQueue)
   .then(data => {
     logger('info', ['index', 'finished'])
+    process.exitCode = 0
   }).catch(err => {
     logger('error', ['index', 'error', err])
+    process.exitCode = 1
   })
