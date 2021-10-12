@@ -1,5 +1,8 @@
 'use strict'
 
+require('dotenv').config()
+
+const { logger } = require('@vtfk/logger')
 const getNextJobFromQueue = require('./lib/get-next-job-from-queue')
 const getFileData = require('./lib/get-file-data')
 // const getContact = require('./lib/get-contact')
@@ -12,7 +15,6 @@ const saveJobDone = require('./lib/save-job-done')
 const saveJobStatus = require('./lib/save-job-status')
 const deleteJobFromQueue = require('./lib/delete-job-from-queue')
 const saveJobError = require('./lib/save-job-error')
-const logger = require('./lib/logger')
 
 getNextJobFromQueue()
   .then(getFileData)
@@ -27,9 +29,7 @@ getNextJobFromQueue()
   .then(saveJobError)
   .then(deleteJobFromQueue)
   .then(data => {
-    logger(['finished', data._id])
-    process.exit(0)
+    logger('info', ['index', 'finished'])
   }).catch(err => {
-    logger(['error', JSON.stringify(err)])
-    process.exit(1)
+    logger('error', ['index', 'error', err])
   })
