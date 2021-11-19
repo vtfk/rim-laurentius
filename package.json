@@ -1,7 +1,7 @@
 {
   "name": "rim-laurentius",
   "description": "Rim for public360",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "private": true,
   "author": {
     "name": "Jonas Enge",
@@ -45,9 +45,8 @@
   "license": "MIT",
   "devDependencies": {
     "coveralls": "3.1.1",
-    "dotenv": "10.0.0",
     "standard": "16.0.4",
-    "tap": "15.0.10"
+    "tap": "15.1.2"
   },
   "dependencies": {
     "@vtfk/logger": "3.0.1",
