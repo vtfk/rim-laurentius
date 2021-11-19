@@ -1,5 +1,9 @@
 'use strict'
 
+if (!process.env.DONE_DIRECTORY_PATH) {
+  require('dotenv').config()
+}
+
 const envs = process.env
 
 module.exports = {
