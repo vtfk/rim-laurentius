@@ -1,7 +1,7 @@
 {
   "name": "rim-laurentius",
   "description": "Rim for public360",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "private": true,
   "author": {
     "name": "Jonas Enge",
