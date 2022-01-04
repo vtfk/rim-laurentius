@@ -46,7 +46,7 @@
   "devDependencies": {
     "coveralls": "3.1.1",
     "standard": "16.0.4",
-    "tap": "15.1.5"
+    "tap": "15.1.6"
   },
   "dependencies": {
     "@vtfk/logger": "4.0.1",
