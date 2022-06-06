@@ -37,10 +37,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/telemark/rim-laurentius.git"
+    "url": "https://github.com/vtfk/rim-laurentius.git"
   },
   "bugs": {
-    "url": "https://github.com/telemark/rim-laurentius/issues"
+    "url": "https://github.com/vtfk/rim-laurentius/issues"
   },
   "license": "MIT",
   "devDependencies": {
