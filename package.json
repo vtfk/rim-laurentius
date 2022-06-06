@@ -13,6 +13,11 @@
       "name": "Geir Gåsodden",
       "email": "geir.gasodden@pythonia.no",
       "url": "https://github.com/zrrrzzt"
+    },
+    {
+      "name": "Rune Moskvil Lyngås",
+      "email": "rune.moskvil.lyngaas@vtfk.no",
+      "url": "https://github.com/runely"
     }
   ],
   "main": "index.js",
