@@ -54,7 +54,7 @@
     "tap": "15.1.6"
   },
   "dependencies": {
-    "@vtfk/logger": "4.0.1",
+    "@vtfk/logger": "4.3.2",
     "p360": "3.1.3",
     "tfk-360-unwrap-contact": "3.0.1",
     "tfk-arkiv-metadatagenerator": "2.1.3",
