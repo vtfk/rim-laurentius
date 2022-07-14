@@ -1,4 +1,4 @@
-FROM node:14.19.3-alpine
+FROM node:18.6.0-alpine
 
 #### Begin setup ####
 
